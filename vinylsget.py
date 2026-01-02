@@ -3,9 +3,9 @@
 import discogs_client
 import csv
 
-userToken = ""
+userToken = "YGTofvyfMlcKIMVsmgNdxKofzHnXUhPBcSCrGZxB"
 
-if userToken == "":
+if userToken == "YGTofvyfMlcKIMVsmgNdxKofzHnXUhPBcSCrGZxB":
     exit("Whoops, you need to set your user token.")
 
 d = discogs_client.Client("CollectionGenreClassifier/0.1 +http://github.com/victorloux",
